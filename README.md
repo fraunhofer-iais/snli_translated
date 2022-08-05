@@ -3,7 +3,7 @@ German version of the Stanford Natural Language Inference (SNLI) data set, machi
 
 The training set has been downsampled to 100 000 examples, while the development and test set were kept at their original sizes of 10 000 examples each.
 The format is similar to the original SNLI data set, which can be found at https://nlp.stanford.edu/projects/snli/.
-For each split, there are two versions: one with the original labels (entailment, neutral, contradiction), and one in which the labels have been binarized by mapping "entailment" and "neutral" to a single class "no contradiction".
+For each split, there are two versions: one with the original labels (entailment, neutral, contradiction), and one in which the labels have been binarized by mapping "entailment" and "neutral" to a single class "no contradiction". The constituency parsing has been created using the [Stanford CoreNLP parser](https://stanfordnlp.github.io/CoreNLP/parse.html).
 
 If you use this data set in your research, please cite the following [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9003090): 
 
